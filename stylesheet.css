@@ -4,27 +4,40 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 60px;
     font-weight: 50px;
-    margin-left:40px
+    margin-left:40px;
+    color:red;
 }
 .b{
-    background:rgb(103, 103, 205);
+    background:rgb(197, 97, 227);
     color: blue;
 }
-.f{
+.g{
     display:grid;
-    grid-template-columns: 400px ;
-    height:500px;
-    width: 400px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.l1{
+    background: rgb(24, 237, 24);
+    color:rgb(247, 18, 18);
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    height:200px;
+    padding-top: 100px;
+}
+
+.f{
+    display: grid;
     background:white;
-    color:black;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-left: 450px;
+    color:white;
+    text-align:center;
+    color:greenyellow;
+    font-size: 38px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:900px;
+
 }
 .f:hover{
     opacity:0.6;
-    height:500px;
-    width: 400px;
     box-shadow:black;
 
 }
