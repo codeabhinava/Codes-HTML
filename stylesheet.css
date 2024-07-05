@@ -96,10 +96,10 @@
 .logo{
     height: 60px;
     width:60px;
-    padding-left:52px;
+
     border-radius: 50%;
     display: inline-block;
-    margin-left: 28px;
+    
 }
 #display{
     display: grid;
@@ -111,14 +111,17 @@
     padding-left: 0px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
-    margin-inline-start: 20px;
 }
 .ki{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
 }
 .l1{
-    margin-left:90%;
     display: inline;
+}
+.logo:hover{
+    height:50px;
+    width:auto;
+    cursor: grab;
 }
