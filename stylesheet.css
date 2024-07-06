@@ -13,11 +13,11 @@
     animation: myanimation 10s infinite;
 }
 @keyframes myanimation{
-    0%{background-color: aqua;}
+    0%{background-color: rgb(93, 246, 246);}
     25%{background-color: burlywood;}
-    50%{background-color: rgb(232, 203, 14);}
+    50%{background-color: rgb(241, 218, 67);}
     75%{background-color: bisque;}
-    100%{background-color: aqua;}
+    100%{background-color: rgb(100, 247, 247);}
 }
 .grids{
     display:grid;
@@ -31,7 +31,7 @@
     padding:20px ;
     height:50%;
     border-radius:65px ;
-    padding-top: 18px;
+    padding-top: 28px;
 }
 
 .intro{
@@ -60,7 +60,7 @@
     margin-right: auto;
     cursor:pointer;
     border-radius:50%;
-    animation: myanim 6s infinite;    
+    animation: myanim 3s infinite;    
 }
 .profile:hover{
     opacity:0.8;
